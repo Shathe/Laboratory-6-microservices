@@ -8,7 +8,7 @@
 ![Dashboard](https://raw.github.com/Shathe/Laboratory-6-microservices/master/dashboard.jpg)
 
 ##3.- A second account registered
-![Account Microservice 2](https://raw.github.com/Shathe/Laboratory-6-microservices/master/accounts2.jpg)
+![Account Microservice 2](https://github.com/Shathe/Laboratory-6-microservices/blob/master/dashboard.jpg?raw=true)
 
 ##4.- A brief report describing what happens when you kill the first account microservice
 When you kill the first account microservice, the web service, can not provide any information about the Account service, (the conecction fail with a "refused connection" error. It happens, because the connection the web is trying to perform is the one using the port 2222 which is no longer avaidable.
