@@ -1,14 +1,14 @@
 ##1.-First part, Account and Web
 ### Account Microservice
-![Account Microservice](https://raw.github.com/Shathe/Laboratory-6-microservices/master/accounts.jpg)
+![Account Microservice](https://github.com/Shathe/Laboratory-6-microservices/blob/master/account.jpg?raw=true)
 ### WebService Microservice
-![WebService Microservice ](https://raw.github.com/Shathe/Laboratory-6-microservices/master/web.jpg)
+![WebService Microservice ](https://github.com/Shathe/Laboratory-6-microservices/blob/master/web.jpg?raw=true)
 
 ##2.- Dashboard
-![Dashboard](https://raw.github.com/Shathe/Laboratory-6-microservices/master/dashboard.jpg)
+![Dashboard](https://github.com/Shathe/Laboratory-6-microservices/blob/master/dashboard.jpg?raw=true)
 
 ##3.- A second account registered
-![Account Microservice 2](https://github.com/Shathe/Laboratory-6-microservices/blob/master/dashboard.jpg?raw=true)
+![Account Microservice 2](https://github.com/Shathe/Laboratory-6-microservices/blob/master/account2.jpg?raw=true)
 
 ##4.- A brief report describing what happens when you kill the first account microservice
 When you kill the first account microservice, the web service, can not provide any information about the Account service, (the conecction fail with a "refused connection" error. It happens, because the connection the web is trying to perform is the one using the port 2222 which is no longer avaidable.
